@@ -1,29 +1,32 @@
-.features .lead {
+.features {
+  .lead {
     font-size: 14px;
     line-height: calc(24 / 14);
   }
-  .list.features {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .features > .item {
+  > .item {
     max-width: calc((100% - 90px) / 4);
   }
-  .list.features > .item:not(:nth-child(4n + 4)) {
-    margin-right: 30px;
-  }
-  
-  .features .box {
+  .box {
     display: flex;
     margin-bottom: 30px;
     width: 100%;
     height: 120px;
     justify-content: center;
     align-items: center;
-    /* padding: 25px 100px; */
     background-color: var(--secondary-bg-grey);
   }
-  .box > .icon {
-    width: 70px;
-    height: 70px;
+}
+
+.list.features {
+  display: flex;
+  flex-wrap: wrap;
+
+  > .item:not(:nth-child(4n + 4)) {
+    margin-right: 30px;
   }
+}
+
+.box > .icon {
+  width: 70px;
+  height: 70px;
+}

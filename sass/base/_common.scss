@@ -13,11 +13,14 @@ body {
   list-style: none;
 }
 
-  .main{
-    margin-top: 80px;
-  }
-  .section-title,
-.title {
- 
+.main{
+  margin-top: 80px;
+}
+
+.nav {
+  display: flex;
+}
+.section-title,
+.title { 
   color: var(--title-text-color);
 }
