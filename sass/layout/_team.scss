@@ -1,0 +1,66 @@
+.section.team {
+    background-color: var(--secondary-bg-grey);
+  }
+  .team .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .team-card {
+    text-align: center;
+    background-color: var(--primary-white-color);
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    /* Сетка */
+    width: calc((100% - 90px) / 4);
+    padding: 0 0 30px;
+  }
+  
+  .team-card:not(:nth-child(4n)) {
+    margin-right: 30px;
+  }
+  
+  .team-desc {
+    /* padding: 30px 0 16px; */
+    margin: 30px 0 16px;
+  }
+  
+  /* Иконки соц. сетей */
+  .team-card .social-media {
+    display: inline-flex;
+    /* align-items: center; */
+    color: var(--icon-color);
+  }
+  .team-card .sm-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0; */
+    width: 44px;
+    height: 44px;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    background-color: var(--primary-white-color);
+    cursor: pointer;
+    transition: background-color var(--transit-dur) var(--transit-time-funct);
+  }
+  .team-card .social-media > .item:not(:last-child) {
+    margin-right: 10px;
+  }
+  .sm-icon > .icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--icon-color);
+    transition: fill var(--transit-dur) var(--transit-time-funct);  
+  }
+  
+  .team-card .sm-icon:hover,
+  .team-card .sm-icon:focus {
+    background-color: var(--accent-color);
+  }
+  
+  .team-card .sm-icon:hover .icon,
+  .team-card .sm-icon:focus .icon {
+    fill: var(--primary-white-color);
+  }
