@@ -8,14 +8,14 @@
   background-position: center;
   background-repeat: no-repeat;
   background-color: #c4c4c4;
-
-  .container {
-    padding: 200px 0;
-    text-align: center;
-  }
 }
 
-.hero-title {
+.hero__container {
+  padding: 200px 0;
+  text-align: center;
+}
+
+.hero__title {
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;

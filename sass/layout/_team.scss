@@ -1,11 +1,11 @@
-.section.team {
+.section__team {
   background-color: var(--secondary-bg-grey);
 }
-.team .list {
+.team__list {
   display: flex;
   flex-wrap: wrap;
 }
-.team-card {
+.team__card {
   text-align: center;
   background-color: var(--primary-white-color);
   border-bottom-right-radius: 4px;
@@ -21,21 +21,21 @@
   }
 }
 
-.team-desc {
+.team__desc {
   /* padding: 30px 0 16px; */
   margin: 30px 0 16px;
 }
 
 /* Иконки соц. сетей */
-.team-card .social-media {
+.team__social-media {
   display: inline-flex;
   color: var(--icon-color);
 
-  > .item:not(:last-child) {
+  > .team__item:not(:last-child) {
     margin-right: 10px;
   }
 }
-.team-card .sm-icon {
+.team__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,20 +48,19 @@
   cursor: pointer;
   transition: background-color var(--transit-dur) var(--transit-time-funct);
 
-  > .icon {
-    width: 20px;
-    height: 20px;
-    fill: var(--icon-color);
-    transition: fill var(--transit-dur) var(--transit-time-funct);
-  }
-
   &:hover,
   &:focus {
     background-color: var(--accent-color);
   }
+}
 
-  &:hover .icon,
-  &:focus .icon {
+.social-media__icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--icon-color);
+  transition: fill var(--transit-dur) var(--transit-time-funct);
+  .team__link:hover &,
+  .team__link:focus & {
     fill: var(--primary-white-color);
   }
 }

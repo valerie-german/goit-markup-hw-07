@@ -20,185 +20,185 @@
     <!-- Хедер -->
     <header class="head">
       <!-- Главная навигация -->
-      <div class="container header">
-      <nav class="nav">
-        <a href="./index.html" lang="en" class="logo-header">Web<span class="word-studio">Studio</span></a>
-        <!-- Ссылки на страницы сайта -->
-        <ul class="list site-nav">
-          <li class="item"><a href="./index.html" class="link">Студия</a></li>
-          <li class="item"><a href="" class="link current">Портфолио</a></li>
-          <li class="item"><a href="" class="link">Контакты</a></li>
+      <div class="container head__box">
+        <nav class="nav head__nav">
+          <a href="./index.html" lang="en" class="logo head__logo">Web<span class="head__logo--black">Studio</span></a>
+          <!-- Ссылки на страницы сайта -->
+          <ul class="list site-nav head__site-nav">
+            <li class="site-nav__item"><a href="./index.html" class="link site-nav__link site-nav__link">Студия</a></li>
+            <li class="site-nav__item"><a href="" class="link site-nav__link site-nav__link--current">Портфолио</a></li>
+            <li class="site-nav__item"><a href="" class="link site-nav__link">Контакты</a></li>
+          </ul>
+        </nav>
+        <!-- Контакты -->
+        <ul class="list contacts head__contacts">
+          <li class="contacts__item"><a href="mailto:info@devstudio.com" class="link contacts__link">
+              <svg class="contacts__icon contacts__icon--mail" aria-label="написать">
+                <use href="images/symbol-defs-opt.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a></li>
+          <li class="contacts__item"><a href="tel:+380961111111" class="link contacts__link">
+              <svg class="contacts__icon contacts__icon--tel" aria-label="позвонить">
+                <use href="images/symbol-defs-opt.svg#icon-phone"></use>
+              </svg>
+              +38 096 111 11 11</a></li>
         </ul>
-      </nav>
-      <!-- Контакты -->
-      <ul class="list contacts">
-        <li class="item"><a href="mailto:info@devstudio.com" class="link icon-mail">
-            <svg class="icon mail">
-              <use href="images/symbol-defs-opt.svg#icon-envelope"></use>
-            </svg>
-            info@devstudio.com</a></li>
-        <li class="item"><a href="tel:+380961111111" class="link">
-            <svg class="icon tel">
-              <use href="images/symbol-defs-opt.svg#icon-phone"></use>
-            </svg>
-            +38 096 111 11 11</a></li>
-      </ul>
       </div>
-      </header>
+    </header>
     <!-- Уникальный контент страницы -->
     <main class="main">
       <section class="section">
         <div class="container">
         <!-- Скрытый логический заголовок -->
-        <h1 class="visually-hidden">Наши кейсы</h1>
-        <ul class="list filter">
-          <li class="item"><button type="button" class="secondary button">Все</button></li>
-          <li class="item"><button type="button" class="secondary button">Веб-сайты</button></li>
-          <li class="item"><button type="button" class="secondary button">Приложения</button></li>
-          <li class="item"><button type="button" class="secondary button">Дизайн</button></li>
-          <li class="item"><button type="button" class="secondary button">Маркетинг</button></li>
+        <h1 class="section__visually-hidden">Наши кейсы</h1>
+        <ul class="list filter section__filter">
+          <li class="filter__item"><button type="button" class="button__secondary">Все</button></li>
+          <li class="filter__item"><button type="button" class="button__secondary">Веб-сайты</button></li>
+          <li class="filter__item"><button type="button" class="button__secondary">Приложения</button></li>
+          <li class="filter__item"><button type="button" class="button__secondary">Дизайн</button></li>
+          <li class="filter__item"><button type="button" class="button__secondary">Маркетинг</button></li>
         </ul>
-        <ul class="list cases">
-          <li class="item">
-            <a class="link" href="">
-            <div class="cases-img-overlay">
-              <img class="cases-pic" src="./images/img-p-1.jpg" alt="открытый ноутбук" width="370" height="294" />
-            <div class="overlay">
-              <p class="overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+        <ul class="list cases section__cases">
+          <li class="cases__item">
+            <a class="link cases__link" href="">
+            <div class="cases__img-overlay">
+              <img class="cases__pic" src="./images/img-p-1.jpg" alt="открытый ноутбук" width="370" height="294" />
+            <div class="cases__overlay">
+              <p class="cases__overlay--text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
             </div>
             </div>              
-            <div class="desc">
-            <h3 class="title">Технокряк</h3>
-            <p class="subtitle">Веб-сайт</p>
+            <div class="cases__desc">
+            <h3 class="cases__title">Технокряк</h3>
+            <p class="cases__subtitle">Веб-сайт</p>
             </div>
           
             </a>
           </li>
-          <li class="item">
-            <a class="link" href="">
-            <div class="cases-img-overlay">
-              <img class="cases-pic"
+          <li class="cases__item">
+            <a class="link cases__link" href="">
+            <div class="cases__img-overlay">
+              <img class="cases__pic"
               src="./images/img-p-2.jpg"
               alt="постер с баскетболистами"
               width="370"
               height="294"
             />
-            <div class="overlay">
-              <p class="overlay-text">Постер — это художественно оформленный плакат, который заключает в себе конкретную идею или образ. Слово произошло от английского poster, что значит «афиша» или «объявление».</p>
+            <div class="cases__overlay">
+              <p class="cases__overlay--text">Постер — это художественно оформленный плакат, который заключает в себе конкретную идею или образ. Слово произошло от английского poster, что значит «афиша» или «объявление».</p>
             </div>
           </div>
-            <div class="desc">
-            <h3 class="title">Постер<span lang="en"> New Orlean vs Golden Star</span></h3>
-            <p class="subtitle">Дизайн</p>
+            <div class="cases__desc">
+            <h3 class="cases__title">Постер<span lang="en"> New Orlean vs Golden Star</span></h3>
+            <p class="cases__subtitle">Дизайн</p>
             </div>
             </a>
           </li>
-          <li class="item">
-            <a class="link" href="">
-            <div class="cases-img-overlay">
-              <img class="cases-pic"
+          <li class="cases__item">
+            <a class="link cases__link" href="">
+            <div class="cases__img-overlay">
+              <img class="cases__pic"
               src="./images/img-p-3.jpg"
               alt="логотип ресторана с морепродуктами"
               width="370"
               height="294"
             />
-            <div class="overlay">
-              <p class="overlay-text">Приложение для ресторана способно увеличить средние чеки, оптимизировать рабочие процессы, снизить затраты на персонал, увеличить клиентуру и много чего еще.</p>
+            <div class="cases__overlay">
+              <p class="cases__overlay--text">Приложение для ресторана способно увеличить средние чеки, оптимизировать рабочие процессы, снизить затраты на персонал, увеличить клиентуру и много чего еще.</p>
             </div>
           </div>
-            <div class="desc">
-            <h3 class="title">Ресторан<span lang="en"> Seafood</span></h3>
-            <p class="subtitle">Приложение</p>
+            <div class="cases__desc">
+            <h3 class="cases__title">Ресторан<span lang="en"> Seafood</span></h3>
+            <p class="cases__subtitle">Приложение</p>
             </div>
           
             </a>
           </li>
-          <li class="item">
-            <a class="link" href="">
-            <div class="cases-img-overlay">
-              <img class="cases-pic" src="./images/img-p-4.jpg" alt="чёрные наушники" width="370" height="294" />
-              <div class="overlay">
-                <p class="overlay-text">Многие проекты успешно реализуются благодаря применению стандартизированного подхода к управлению проектами. Маркетинг проекта - это центральный ключ к успеху проекта.</p>
+          <li class="cases__item">
+            <a class="link cases__link" href="">
+            <div class="cases__img-overlay">
+              <img class="cases__pic" src="./images/img-p-4.jpg" alt="чёрные наушники" width="370" height="294" />
+              <div class="cases__overlay">
+                <p class="cases__overlay--text">Многие проекты успешно реализуются благодаря применению стандартизированного подхода к управлению проектами. Маркетинг проекта - это центральный ключ к успеху проекта.</p>
               </div>
             </div>
-            <div class="desc">
-            <h3 class="title">Проект<span lang="en"> Prime</span></h3>
-            <p class="subtitle">Маркетинг</p>
+            <div class="cases__desc">
+            <h3 class="cases__title">Проект<span lang="en"> Prime</span></h3>
+            <p class="cases__subtitle">Маркетинг</p>
             </div>
             </a>
           </li>
-          <li class="item">
-            <a class="link" href="">
-            <div class="cases-img-overlay">
-              <img class="cases-pic" src="./images/img-p-5.jpg" alt="две коробочки" width="370" height="294" />
-              <div class="overlay">
-                <p class="overlay-text">Синхронизируйте файлы с персонального компьютера на смартфон или планшет. Во время загрузки файлов на сервер ссылкой на них уже можно делиться с друзьями и коллегами. К общедоступным файлам комментарии может оставлять каждый.</p>
+          <li class="cases__item">
+            <a class="link cases__link" href="">
+            <div class="cases__img-overlay">
+              <img class="cases__pic" src="./images/img-p-5.jpg" alt="две коробочки" width="370" height="294" />
+              <div class="cases__overlay">
+                <p class="cases__overlay--text">Синхронизируйте файлы с персонального компьютера на смартфон или планшет. Во время загрузки файлов на сервер ссылкой на них уже можно делиться с друзьями и коллегами. К общедоступным файлам комментарии может оставлять каждый.</p>
               </div>
             </div>
-            <div class="desc">            
-            <h3 class="title">Проект <span lang="en"> Boxes</span></h3>
-            <p class="subtitle">Приложение</p>            
+            <div class="cases__desc">            
+            <h3 class="cases__title">Проект <span lang="en"> Boxes</span></h3>
+            <p class="cases__subtitle">Приложение</p>            
             </div>
             </a>
           </li>
-          <li class="item">
-            <a class="link" href="">
-            <div class="cases-img-overlay">
-              <img class="cases-pic" src="./images/img-p-6.jpg" alt="монитор с инфографикой" width="370" height="294" />
-              <div class="overlay">
-                <p class="overlay-text">Подборки рисунков от выдающихся художников, примеры промышленного дизайна, оформление упаковки, интерьера и фото дня – все это на сайте вдохновения без границ.</p>
+          <li class="cases__item">
+            <a class="link cases__link" href="">
+            <div class="cases__img-overlay">
+              <img class="cases__pic" src="./images/img-p-6.jpg" alt="монитор с инфографикой" width="370" height="294" />
+              <div class="cases__overlay">
+                <p class="cases__overlay--text">Подборки рисунков от выдающихся художников, примеры промышленного дизайна, оформление упаковки, интерьера и фото дня – все это на сайте вдохновения без границ.</p>
               </div>
             </div>
-            <div class="desc">
-            <h3 lang="en" class="title">Inspiration has no Borders</h3>
-            <p class="subtitle">Веб-сайт</p>
+            <div class="cases__desc">
+            <h3 lang="en" class="cases__title">Inspiration has no Borders</h3>
+            <p class="cases__subtitle">Веб-сайт</p>
             </div>          
             </a>
           </li>
-          <li class="item">
-            <a class="link" href="">
-            <div class="cases-img-overlay">
-              <img class="cases-pic" src="./images/img-p-7.jpg" alt="разворот журнала" width="370" height="294" />
-              <div class="overlay">
-                <p class="overlay-text">Кто сказал, что эра печатных изданий прошла? В эпоху цифрового потребления информации принт-издания превратились в ценные артефакты, которые покупаешь для домашней библиотеки, тактильного и визуального наслаждения, коллекционирования.</p>
+          <li class="cases__item">
+            <a class="link cases__link" href="">
+            <div class="cases__img-overlay">
+              <img class="cases__pic" src="./images/img-p-7.jpg" alt="разворот журнала" width="370" height="294" />
+              <div class="cases__overlay">
+                <p class="cases__overlay--text">Кто сказал, что эра печатных изданий прошла? В эпоху цифрового потребления информации принт-издания превратились в ценные артефакты, которые покупаешь для домашней библиотеки, тактильного и визуального наслаждения, коллекционирования.</p>
               </div>
             </div>
-            <div class="desc">
-            <h3 class="title">Издание<span lang="en"> Limited Edition</span></h3>
-            <p class="subtitle">Дизайн</p>
+            <div class="cases__desc">
+            <h3 class="cases__title">Издание<span lang="en"> Limited Edition</span></h3>
+            <p class="cases__subtitle">Дизайн</p>
             </div>          
             </a>
           </li>
-          <li class="item">
-            <a class="link" href="">
-            <div class="cases-img-overlay">
-              <img class="cases-pic" src="./images/img-p-8.jpg" alt="лейб с логотипом" width="370" height="294" />
-              <div class="overlay">
-                <p class="overlay-text">Если у вас нет плана действий — вы запускаете кампании хаотично и не знаете, к чему движетесь. Если у вас нет стратегии — вы будете бежать за текущими задачами, но не сможете внедрять инновации.</p>
+          <li class="cases__item">
+            <a class="link cases__link" href="">
+            <div class="cases__img-overlay">
+              <img class="cases__pic" src="./images/img-p-8.jpg" alt="лейб с логотипом" width="370" height="294" />
+              <div class="cases__overlay">
+                <p class="cases__overlay--text">Если у вас нет плана действий — вы запускаете кампании хаотично и не знаете, к чему движетесь. Если у вас нет стратегии — вы будете бежать за текущими задачами, но не сможете внедрять инновации.</p>
               </div>
             </div>
-            <div class="desc">
-            <h3 class="title">Проект <span lang="en"></span> LAB</h3>
-            <p class="subtitle">Маркетинг</p>
+            <div class="cases__desc">
+            <h3 class="cases__title">Проект <span lang="en"></span> LAB</h3>
+            <p class="cases__subtitle">Маркетинг</p>
             </div>
             </a>
           </li>
-          <li class="item">
-            <a class="link" href="">
-            <div class="cases-img-overlay">
-              <img class="cases-pic"
+          <li class="cases__item">
+            <a class="link cases__link" href="">
+            <div class="cases__img-overlay">
+              <img class="cases__pic"
               src="./images/img-p-9.jpg"
               alt="печатает текст на ноутбуке"
               width="370"
               height="294"
             />
-            <div class="overlay">
-              <p class="overlay-text">С помощью мобильного приложения вы можете установить мгновенные и прямые отношения со своими клиентами и завоевать их лояльность.</p>
+            <div class="cases__overlay">
+              <p class="cases__overlay--text">С помощью мобильного приложения вы можете установить мгновенные и прямые отношения со своими клиентами и завоевать их лояльность.</p>
             </div>
           </div>
-            <div class="desc">
-            <h3 lang="en" class="title">Growing Business</h3>
-            <p class="subtitle">Приложение</p>            
+            <div class="cases__desc">
+            <h3 lang="en" class="cases__title">Growing Business</h3>
+            <p class="cases__subtitle">Приложение</p>            
           </div>
             </a>
           </li>
@@ -208,75 +208,71 @@
     </main>
     <!-- Футер -->
     <footer class="footer">
-      <div class="container">
-        <div class="about">
-      <a href="./index.html" lang="en" class="logo-footer">Web<span class="word-studio">Studio</a>
-      <!-- Контакты -->
-      <address class="address">
-        <ul class="list">
-          <li class="location">
-            <a
-              href="https://goo.gl/maps/S1DiWHNBeh5bc1R79"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="link"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li class="contact">
-            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-          </li>
-          <li class="contact"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-        </ul>
-      </address>
-      </div>
-      <!-- Присоединяйтесь -->
-  <div class="join">
-  <b class="join-title">присоединяйтесь</b>
-  <ul class="list social-media">
-    <li class="item">
-              <a href="" target="_blank" rel="noopener noreferrer" class="link sm-icon">
-        <svg class="icon" aria-label="инстаграм">
-          <use href="./images/symbol-defs-opt.svg#icon-instagram-1"></use>
-        </svg>
-        </a>
-      
-    </li>
-    <li class="item">
-      <a href="" target="_blank" rel="noopener noreferrer" class="link sm-icon">
-        <svg class="icon" aria-label="твиттер">
-          <use href="./images/symbol-defs-opt.svg#icon-twitter-1"></use>
-        </svg>
-      </a>
-    </li>
-    <li class="item">
-      <a href="" target="_blank" rel="noopener noreferrer" class="link sm-icon">
-        <svg class="icon" aria-label="фейсбук">
-          <use href="./images/symbol-defs-opt.svg#icon-facebook-1"></use>
-        </svg>
-      </a>
-    </li>
-    <li class="item">
-      <a href="" target="_blank" rel="noopener noreferrer" class="link sm-icon">
-        <svg class="icon" aria-label="линкедин">
-          <use href="./images/symbol-defs-opt.svg#icon-linkedin-1"></use>
-        </svg>
-      </a>
-    </li>
-  </ul>
-</div>
-<!-- Подпишитесь -->
-<div class="subscribe">
-  <b class="subscribe-title">подпишитесь на рассылку</b>
-  <div class="subscribe-box">
-  <input class="subscribe-input" type="email" name="subscribe-mail" id="subscribe-mail" placeholder="E-mail"/>
-  <button class="button primary" type="submit">Подписаться
-    <svg class="icon" aria-label="подписаться на рассылку"> 
-      <use href="./images/symbol-defs-opt.svg#icon-icon-send"></use>
-    </svg>
-  </button>
-</div>
-  </div>
+      <div class="container footer__container">
+        <div class="about footer__about">
+          <a href="./index.html" lang="en" class="logo footer__logo">Web<span class="footer__logo--white">Studio</a>
+          <!-- Контакты -->
+          <address class="address footer__address">
+            <ul class="list footer__list">
+              <li class="footer__location">
+                <a href="https://goo.gl/maps/S1DiWHNBeh5bc1R79" target="_blank" rel="noopener noreferrer"
+                  class="link footer__link footer__link--white">г. Киев, пр-т Леси Украинки, 26</a>
+              </li>
+              <li class="footer__contact">
+                <a href="mailto:info@devstudio.com" class="link footer__link footer__link--grey">info@devstudio.com</a>
+              </li>
+              <li class="footer__contact"><a href="tel:+380961111111" class="link footer__link footer__link--grey">+38 096
+                  111 11 11</a></li>
+            </ul>
+          </address>
+        </div>
+        <!-- Присоединяйтесь -->
+        <div class="join footer__join">
+          <b class="join__title">присоединяйтесь</b>
+          <ul class="list join__social-media">
+            <li class="join__item">
+              <a href="" target="_blank" rel="noopener noreferrer" class="link join__link">
+                <svg class="join__icon" aria-label="инстаграм">
+                  <use href="./images/symbol-defs-opt.svg#icon-instagram-1"></use>
+                </svg>
+              </a>
+    
+            </li>
+            <li class="join__item">
+              <a href="" target="_blank" rel="noopener noreferrer" class="link join__link">
+                <svg class="join__icon" aria-label="твиттер">
+                  <use href="./images/symbol-defs-opt.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join__item">
+              <a href="" target="_blank" rel="noopener noreferrer" class="link join__link">
+                <svg class="join__icon" aria-label="фейсбук">
+                  <use href="./images/symbol-defs-opt.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join__item">
+              <a href="" target="_blank" rel="noopener noreferrer" class="link join__link">
+                <svg class="join__icon" aria-label="линкедин">
+                  <use href="./images/symbol-defs-opt.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Подпишитесь -->
+        <div class="subscribe footer__subscribe">
+          <b class="subscribe__title">подпишитесь на рассылку</b>
+          <div class="subscribe__box">
+            <input class="subscribe__input" type="email" name="subscribe-mail" id="subscribe-mail" placeholder="E-mail" />
+            <button class="footer__button footer__button--primary" type="submit">Подписаться
+              <svg class="subscribe__icon" aria-label="подписаться на рассылку">
+                <use href="./images/symbol-defs-opt.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </footer>
     </body>

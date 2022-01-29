@@ -6,16 +6,16 @@
     display: flex;
   }
 
-  .about {
+  .footer__about {
     margin-right: 70px;
   }
 }
 
-.logo-footer {
+.footer__logo {
   display: inline-block;
   margin-bottom: 20px;
 
-  .word-studio {
+  .footer__logo--white {
     color: var(--primary-white-color);
   }
 }
@@ -26,17 +26,17 @@
   font-style: inherit;
   font-size: 14px;
   line-height: 1.71;
-
-  .location {
-    margin-bottom: 9px;
-  }
-
-  .contact:not(:last-child) {
-    margin-bottom: 9px;
-  }
 }
 
-.location .link {
+.footer__location {
+  margin-bottom: 9px;
+}
+
+.footer__contact:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer__link--white {
   color: var(--primary-white-color);
   text-decoration: none;
   transition: color var(--transit-dur) var(--transit-time-funct);
@@ -47,7 +47,7 @@
   }
 }
 
-.contact .link {
+.footer__link--grey {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   transition: color var(--transit-dur) var(--transit-time-funct);
@@ -58,14 +58,14 @@
   }
 }
 
-.footer .join {
+.join {
   padding: 12px 0 0 0;
 
-  .social-media {
+  .join__social-media {
     display: inline-flex;
   }
 
-  .sm-icon {
+  .join__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,29 +78,29 @@
     transition: background-color var(--transit-dur) var(--transit-time-funct);
   }
 
-  .social-media > .item:not(:last-child) {
+  .join__social-media > .join__item:not(:last-child) {
     margin-right: 10px;
   }
 
-  .icon {
+  .join__icon {
     width: 20px;
     height: 20px;
     fill: var(--primary-white-color);
   }
 
-  & .sm-icon:hover,
-  & .sm-icon:focus {
+  & .join__link:hover,
+  & .join__link:focus {
     background-color: var(--accent-color);
   }
 }
 
-.footer .subscribe {
+.footer__subscribe {
   padding: 12px 0 0 0;
   margin-left: auto;
 }
 
-.join-title,
-.subscribe-title {
+.join__title,
+.subscribe__title {
   display: block;
   text-transform: uppercase;
   font-weight: 700;
@@ -111,10 +111,10 @@
   margin-bottom: 20px;
 }
 
-.subscribe-box {
+.subscribe__box {
   display: flex;
 
-  .subscribe-input {
+  .subscribe__input {
     margin-right: 12px;
     padding: 15px 16px;
     width: 358px;
@@ -131,29 +131,27 @@
     transition: border var(--transit-dur) var(--transit-time-funct);
   }
 
-  .subscribe-input::placeholder {
+  .subscribe__input::placeholder {
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
   }
 
-  & .subscribe-input:hover,
-  & .subscribe-input:focus {
+  & .subscribe__input:hover,
+  & .subscribe__input:focus {
     border: 1px solid rgba(255, 255, 255, 0.6);
   }
 }
 
-.subscribe {
-  .button {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .icon {
-    width: 24px;
-    height: 24px;
-    fill: var(--primary-white-color);
-    margin-left: 10px;
-  }
+.footer__button--primary {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe__icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--primary-white-color);
+  margin-left: 10px;
 }

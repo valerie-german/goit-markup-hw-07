@@ -1,6 +1,5 @@
-.services .section-title,
-.team .section-title,
-.clients .section-title {
+.section__title {
+  color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -8,28 +7,34 @@
   margin-bottom: 50px;
 }
 
-.title {
+// .title {
+//   margin-bottom: 10px;
+// }
+
+.features__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
   margin-bottom: 10px;
+  color: var(--title-text-color);
 }
 
-.features .title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-  }
+.team__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  margin-bottom: 10px;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
 
-  .team .title {
-    font-weight: 500;
-    font-size: inherit;
-    line-height: calc(19 / 16);
-  }
-
-  .cases .title {
- 
-    font-weight: 700;
-    font-size: 18px;
-    line-height: calc(36 / 18);
-    letter-spacing: 0.06em;
-    margin-bottom: 4px;
-  }
+.cases__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  margin-bottom: 4px;
+  margin-bottom: 10px;
+  color: var(--title-text-color);
+}
