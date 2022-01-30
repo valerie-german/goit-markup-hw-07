@@ -1,6 +1,6 @@
 .logo {
   text-decoration: none;
-  color: var(--accent-color);
+  color: $accentColor;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -33,22 +33,22 @@
     display: block;
     position: relative;
     padding: 32px 0;
-    color: var(--title-text-color);
-    transition: color var(--transit-dur) var(--transit-time-funct);
+    color: $titleTextColor;
+    transition: color $transitDur $transitTimeFunct;
 
     &--current {
-      color: var(--accent-color);
+      color: $accentColor;
     }
 
     &:hover,
     &:focus {
-      color: var(--accent-color);
+      color: $accentColor;
     }
   }
 }
 
 .head {
-  background-color: var(--primary-white-color);
+  background-color: $primaryWhite;
   border-bottom: 1px solid #ececec;
   position: fixed;
   top: 0;
@@ -57,18 +57,18 @@
 }
 
 .head__contacts .contacts__link {
-  color: var(--primary-text-color);
+  color: $primaryTextColor;
   display: inline-flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   padding: 32px 0;
-  transition: color var(--transit-dur) var(--transit-time-funct);
+  transition: color $transitDur $transitTimeFunct;
 
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accentColor;
   }
 }
 

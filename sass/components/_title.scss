@@ -1,5 +1,5 @@
 .section__title {
-  color: var(--title-text-color);
+  color: $titleTextColor;
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -17,7 +17,7 @@
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: var(--title-text-color);
+  color: $titleTextColor;
 }
 
 .team__title {
@@ -26,7 +26,7 @@
   line-height: calc(19 / 16);
   margin-bottom: 10px;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  color: $titleTextColor;
 }
 
 .cases__title {
@@ -36,5 +36,5 @@
   letter-spacing: 0.06em;
   margin-bottom: 4px;
   margin-bottom: 10px;
-  color: var(--title-text-color);
+  color: $titleTextColor;
 }

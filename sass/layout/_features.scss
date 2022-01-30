@@ -22,7 +22,7 @@
   height: 120px;
   justify-content: center;
   align-items: center;
-  background-color: var(--secondary-bg-grey);
+  background-color: $secondaryBgGrey;
 
   > .features__icon {
     width: 70px;

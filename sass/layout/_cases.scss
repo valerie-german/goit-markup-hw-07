@@ -14,7 +14,7 @@
 
 .cases__link {
   display: block;
-  transition: box-shadow var(--transit-dur) var(--transit-time-funct);
+  transition: box-shadow $transitDur $transitTimeFunct;
   &:hover,
   &:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -56,14 +56,14 @@
     padding: 24px 24px;
     background-color: rgba(33, 150, 243, 0.9);
     transform: translateY(102%);
-    transition: transform var(--transit-dur) var(--transit-time-funct);
+    transition: transform $transitDur $transitTimeFunct;
   }
 
   .cases__overlay--text {
     font-size: 18px;
     line-height: 1.56;
     letter-spacing: 0.03em;
-    color: var(--primary-white-color);
+    color: $primaryWhite;
   }
 
 

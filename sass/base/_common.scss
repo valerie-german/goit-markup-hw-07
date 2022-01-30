@@ -1,7 +1,7 @@
 body {
-  background-color: var(--primary-white-color);
-  color: var(--primary-text-color);
-  font-family: 'Roboto', 'Arial', sans-serif;
+  background-color: $primaryWhite;
+  color: $primaryTextColor;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   letter-spacing: 0.03em;
 }
@@ -13,7 +13,7 @@ body {
   list-style: none;
 }
 
-.main {
+.main{
   margin-top: 80px;
 }
 
@@ -21,6 +21,6 @@ body {
   display: flex;
 }
 .section-title,
-.title {
-  color: var(--title-text-color);
+.title { 
+  color: $titleTextColor;
 }
