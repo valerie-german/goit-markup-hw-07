@@ -359,7 +359,7 @@ body {
   padding-top: 0;
 }
 
-.services .list {
+.services__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -367,19 +367,19 @@ body {
       flex-wrap: wrap;
 }
 
-.services .list > .item {
+.services__item {
   width: calc((100% - 60px) / 3);
 }
 
-.services .list > .item:not(:nth-child(3n)) {
+.services__item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
 
-.services-card {
+.services__card {
   position: relative;
 }
 
-.services-desc {
+.services__desc {
   position: absolute;
   bottom: 0;
   left: 0;
