@@ -669,11 +669,7 @@ body {
   line-height: 1.71;
 }
 
-.footer__location {
-  margin-bottom: 9px;
-}
-
-.footer__contact:not(:last-child) {
+.footer__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
